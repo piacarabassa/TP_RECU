@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff4e6;
+  color: #333;
+}
+
+header {
+  background-color: #ffcc00;
+  height: 80px;
+  padding: 10px 20px;
+  position: relative; 
+}
+
+.logo {
+  float: left;
+}
+
+.logoimage {
+  width: 80px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.titulo {
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 80px;
+  font-size: 40px;
+}
+
+.titulo a {
+  text-decoration: none;
+  color: #000;
+}
+
+.titulo a:hover {
+  color: #e63946;
+}
+
+.menu {
+  float: right;
+  margin-top: 25px; 
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  color: #e63946;
+}
+
+
+.texto{
+  color: #e63946; 
+  margin: 5px;
+}
+
+.texto h2
+{
+  color: #e63946;
+  margin: 40px;
+  font-size: 40px;
+  align-items: center;
+}
+
+.texto p{
+  color: black;
+}
+
+.texto ul {
+  margin: 10px 5px;
+  padding-left: 20px;
+  color: black;
+  padding: 5px;
+}
+.imagen{
+  width: 100%;
+  overflow: hidden;
+  float: right;
+}
+.textofoto {
+  width: 100%;
+  background-color: #fff4e6;
+  overflow: hidden;
+}
+
+#izquierda {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+#derecha {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.imagen img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+.pie {
+  width: 100%;
+  height: 80px;
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  position: relative;
+  clear: both;
+}
+
+.uceslogo {
+  float: left;
+  width: 50px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.textonombre {
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  font-family: "Playfair Display", serif;
+  color: #400101;
+  font-size: 16px;
+}
+
+.footer-redes {
+  float: right;
+  margin-top: 20px;
+}
+
+.footer-redes a {
+  float: left;
+  margin-left: 10px;
+}
+
+.footer-redes img {
+  width: 30px;
+  height: auto;
+}
+
